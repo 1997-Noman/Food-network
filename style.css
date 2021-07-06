@@ -74,7 +74,7 @@ h1{
     color: #0c7cc7;
  font-size: 40px;
 }
-.hire-btn{
+.order-btn{
 text-decoration: none;
 background-image: linear-gradient(black, #0c7cc7);
 border-radius: 25px;
@@ -83,38 +83,107 @@ color: whitesmoke;
 transition: 3s;
 font-weight: 800;
 
-
-}
-.div-two{
-    padding: 5%;
-    padding-right: -15px;
-    position: relative;
-    margin-top: -60px;    
 }
 
+#about-img-area{
+    width: 50%;
+    height: 114%;
+    border-radius:20%;
+    padding-left: 20%;
+}
 
-.section-two{
+.about-section{
+    background-position:right;
+    
+}
+#about-area{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+#about-img-area{
+    width: 65%;
+    height: 138%;
+    border-radius:20%;
+    padding-left: 25%;
+
+
+}
+.about-text-area{
+    margin-right: 10%;
+}
+.contact-btn{
+    text-decoration: none;
+    background-image: linear-gradient(black, #0c7cc7);
+    border-radius: 25px;
+    padding: 10px 40px;
+    color: whitesmoke;
+    transition: 3s;
+    font-weight: 800;
+     
+}
+#my-recepies{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.recepi-container{
+    
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.Repepi-menia{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-image-slice: 1;
+    box-shadow: 5px 5px 30px rgb(52, 178, 228);
+    border-radius: 5%;
+   
+}
+
+   
+
+
+.flex-recepi{
     display: flex;
-    margin-bottom: 15px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-bottom: 150px;
 }
-.one{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    margin-left: 45px;
-    margin-right: 10px;
+
+    .food-resize{
+        width: 95%;
+        height: 210px;
+        border-radius: 10px;
+        margin : 5px;
+        padding-top: 12px;
+        border-radius: 6%;
+        padding-right: -25px;
     
 
-}
-.two{
-    width: 18.7%;
-    position: absolute ;
-    top: 130px;
-    padding-left: 190px;
+       
+    }
+    footer {
+        text-align: center;
+            color : whitesmoke;
+            background-image: linear-gradient(#0a2b41 , rgb(22, 115, 190));
+            width: 100%;
+            height: 100px;
+            
+            padding-bottom: 20px;
+
+    }
     
+       
     
-    
-    
-}
