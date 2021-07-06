@@ -70,6 +70,12 @@ h1{
     font-size: 38px;
     font-weight: 800;
 }
+h2{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-left: 5%;
+}
 .colour-one{
     color: #0c7cc7;
  font-size: 40px;
@@ -184,6 +190,22 @@ font-weight: 800;
             padding-bottom: 20px;
 
     }
-    
+    .text-search{
+        font-size: 42px;
+        margin-left: 80px;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(204, 204, 204), #6991ac);
+        color: rgb(219, 219, 219);
+        
+    }
+    .order-food{
        
-    
+        padding-top: 14px;
+        /*padding-left: 10%; */
+        margin-left: 120px;
+        font-size: 25px;
+        text-align: center;
+        
+        
+
+    }
